@@ -38,11 +38,11 @@ body {
 }
 
 #sidebar{
-    width: 70px;
+    width: 120px;
     min-height: 70px;
     z-index: 1000;
     background: #0e0e0e;
-    transition: all 25s ease-in-out;
+    transition: all 0.25s ease-in-out;
     display: flex;
     flex-direction: column;
     background-color: #0e223e;
