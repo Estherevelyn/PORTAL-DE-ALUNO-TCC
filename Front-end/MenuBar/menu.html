@@ -22,26 +22,32 @@
 </head>
 
 <body>
+
+   <nav class="navbar navbar-light bg-white fixed-top shadow-sm">
+  <div class="container-fluid">
+    <!-- Botão abre/fecha sidebar -->
+    <button id="toggle-btn" class="btn btn-outline-primary">
+      <i class="lni lni-grid-alt"></i>
+    </button>
+
+    <!-- Logo ETC -->
+    <a class="navbar-brand ms-2 fw-bold text-primary" href="#">ETC</a>
+  </div>
+</nav>
+
  <div class="wrapper"> <!-- Wrapper principal que envolve sidebar e conteúdo -->
  
     <!-- =================== SIDEBAR =================== -->
     <aside id="sidebar">
-
-      <!-- Cabeçalho da sidebar (logo + botão toggle) -->
+<!-- 
+      Cabeçalho da sidebar (logo + botão toggle) -->
       <div class="d-flex">
         <!-- Botão para expandir/recolher o menu -->
-        <button id="toggle-btn" type="button">
-          <i class="lni lni-grid-alt"></i> <!-- Ícone do Lineicons -->
-        </button>
+        <!-- <button id="toggle-btn" type="button">
+       <!-- Ícone do Lineicons -->
+        </button> -->
 
-        <!-- Espaço para o logo (caso queira colocar imagem futuramente) -->
-        <div class="sidebar-logo">
-
-          <!-- Link simples ao lado do logo -->
-          <a href="#" >ETC</a>
-        </div>
-      </div>
-
+       
       <!-- =================== MENU PRINCIPAL =================== -->
       <ul class="sidebar-nav">
 
@@ -144,7 +150,7 @@
     <!-- =================== CONTEÚDO PRINCIPAL =================== -->
     <div class="main p-3">
       <div class="text-center">
-        <h1>Portal do Aluno</h1>
+        <h1>Bem-vindo ao Portal do Aluno</h1>
       </div>
     </div>
   </div>

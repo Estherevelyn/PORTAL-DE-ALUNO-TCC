@@ -25,7 +25,8 @@ body {
 }
 
 .wrapper {
-    display: flex;
+  display: flex;
+  margin-top: 56px; /* altura da navbar */
    
 }
 
@@ -34,11 +35,14 @@ body {
     width: 100%;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
-    background-color: #fafbfe;
+    margin-top: 70px; /* espaço para navbar */
+    margin-left: 20px; /* espaço para sidebar */
+    transition: margin-left 0.3s ease-in-out;
+    padding: 2rem;
 }
 
 #sidebar{
-    width: 120px;
+    width: 300px;
     min-height: 70px;
     z-index: 1000;
     background: #0e0e0e;
@@ -62,7 +66,7 @@ body {
 
 #toggle-btn i{
     font-size: 1.5rem;
-    color: #fff;
+    color: #27045f;
 }
 
 .sidebar-logo {
@@ -94,7 +98,7 @@ a.sidebar-link{
     border-left: 3px solid transparent;
 }
 
-sidebar-link i {
+.sidebar-link i {
     font-size: 1.1rem;
     margin-right: .75rem;
 }

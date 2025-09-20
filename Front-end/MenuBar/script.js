@@ -1,5 +1,6 @@
-const hamburger = document.querySelector("#toggle-btn");
+const toggleBtn = document.getElementById("toggle-btn");
+const sidebar = document.getElementById("sidebar");
 
-hamburger.addEventListener("click", function () {
-  document.querySelector("#sidebar").classList.toggle("expand");
+toggleBtn.addEventListener("click", () => {
+  sidebar.classList.toggle("expand");
 });
